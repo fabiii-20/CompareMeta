@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Compare</title>
+</head>
+<body>
+    <h1>Compare the meta properties</h1>
+    <div id="text-area">
+        <textarea id="compare-url" placeholder="You can paste your URL here" rows="4" cols="40"></textarea>
+        <br /><br />
+        <button id="compare-button">Compare</button>
+    </div>
+    <div id="countdown" style="display:none;"></div>
+    <div id="comparisonResults" style="display:none;">
+        <h2>Page Properties Comparison</h2>
+        <table id="meta-comparison">
+            <thead>
+                <tr>
+                    <th>Current Page</th>
+                    <th>Target Page</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>
